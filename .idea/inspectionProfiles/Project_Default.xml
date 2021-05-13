@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="yaml" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="copyright" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pika-stubs==0.1.3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_node" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__graph" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_workstation_number_rm" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_repairman_connected_to_ws" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_workstation_connected_to_ws" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_numeric_type" />
+          <option value="bricksim.simulation.ShopFloorSimulation._ShopFloorSimulation__validate_container_connected_to_ws" />
+          <option value="dateutil.parser" />
+          <option value="typing.Iterable.__getitem__" />
+          <option value="typing.Iterator.root" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
