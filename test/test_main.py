@@ -7,14 +7,9 @@ class TestRabbitMQ(unittest.TestCase):
 
     def test_creation_works(self):
 
-        host = 'localhost'
+        host = 'rabbitmq'
         queue = 'testqueue'
-        whitelist = tuple()
-        blacklist = tuple()
 
-        self.connection = BlockingConnection(ConnectionParameters(host))
+        self.connection = BlockingConnection(ConnectionParameters(host=host))
         self.channel = self.connection.channel()
-        self.queue = queue
-        self.whitelist = whitelist
-        self.blacklist = blacklist
-        self.channel.queue_declare(queue=self.queue, durable=True)
+        self.channel.queue_declare(queue=queue)
