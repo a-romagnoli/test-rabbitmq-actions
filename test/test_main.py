@@ -7,7 +7,7 @@ class TestRabbitMQ(unittest.TestCase):
 
     def test_creation_works(self):
 
-        host = 'localhost'
+        host = '127.0.0.1'
         queue = 'testqueue'
 
         self.connection = BlockingConnection(ConnectionParameters(host=host))
